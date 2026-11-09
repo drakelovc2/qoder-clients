@@ -1,0 +1,17 @@
+{
+  "_комментарий": "qoder-autoreg — пример конфига. Скопируй в config.json. Секреты не коммитить.",
+  "base_url": "https://qoder.com",
+  "signup_path": "/users/sign-up",
+  "password": "CHANGE_ME_STRONG_PASSWORD",
+  "names": ["Alex", "Qoder"],
+  "chrome_path": "",
+  "captcha_timeout_sec": 300,
+  "mail_timeout_sec": 180,
+  "mail": {
+    "api_base": "https://mail.example.com",
+    "admin_key": "REPLACE_ME",
+    "domain": "example.com"
+  },
+  "_mail_note": "apimail-совместимый admin API: GET {api_base}/admin/mails?address=…&limit=…&offset=0 с x-admin-auth. Домен должен принимать письма Qoder.",
+  "_captcha_note": "AliyunCaptcha в web-форме Qoder. Скрипт открывает headful-окно; капчу проходишь руками, дальше код из письма и сохранение аккаунта автоматические."
+}
